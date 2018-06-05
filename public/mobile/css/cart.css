@@ -1,0 +1,125 @@
+.cz_content .commodity {
+    border-bottom: 1px solid #ccc;
+}
+.cz_content .commodity li {
+    height: 106px;
+    width: 100%;
+    position: relative;
+    padding: 11px 15px;
+    border-top: 1px solid #ccc;
+}
+.cz_content .commodity li img {
+    max-width: 60px;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+.cz_content .commodity li .commodity_message {
+   overflow: hidden;
+}
+.cz_content .commodity li .commodity_message p {
+    margin: 0;
+}
+.cz_content .commodity li .commodity_message p:nth-child(1) {
+    height: 40px;
+    line-height: 20px;
+    width: 100%;
+    overflow: hidden;
+    white-space: normal;
+    color: #666;
+}
+.cz_content .commodity li .commodity_message p:nth-of-type(2) .oldPrice {
+    color: #ccc;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.cz_content .commodity li .commodity_message p:nth-of-type(2) .nowPrice {
+    color: red;
+}
+.cz_content .commodity li .commodity_message p:nth-of-type(2) .amount {
+    float: right;
+    color: #ccc;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.cz_content .commodity li .commodity_message p:nth-of-type(3) {
+    font-size: 12px;
+}
+.cz_content .commodity li .commodity_message input {
+    position: absolute;
+    left: 20px;
+    bottom: 10px;
+}
+.cz_container .cz_indent {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 55px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #ff3300;
+    font-weight: 600;
+    z-index: 2;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+.cz_indent span:nth-child(1) {
+    padding-left: 20px;
+}
+.cz_indent a {
+    display: block;
+    float: right;
+    height: 30px;
+    width: 100px;
+    background-color:#ff3300 ;
+    color: #fff;
+    text-align: center;
+}
+/*隐藏掉组件自带的线*/
+.mui-table-view-cell:after {
+    height: 0;
+}
+/*编辑框样式*/
+.up_data {
+    text-align: left;
+}
+.up_data span {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    vertical-align: middle;
+    border: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+.up_data .c_size {
+    padding: 5px;
+    font-size: 12px;
+}
+.up_data .c_size span.now {
+    background-color: #fa672d;
+}
+.up_data .c_num {
+    padding: 5px;
+    font-size: 14px;
+}
+.up_data .c_num input {
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    display: inline-block;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    text-align: center;
+}
+.up_data .c_num span {
+    margin: 0;
+}

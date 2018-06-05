@@ -1,0 +1,10 @@
+.cz_content {
+    background-color: #efeff4;
+}
+.cz_content .form_box {
+    padding: 10px;
+}
+.cz_content .form_box .btn_submit {
+    display: block;
+    width: 100%;
+}

@@ -1,0 +1,138 @@
+body{
+    font-family: "Microsoft YaHei";
+}
+a:hover,a:active,a:focus{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/*login 模块*/
+.login_bg {
+    background-color: #222d32;;
+}
+.mt_150{
+    margin-top: 150px;
+}
+.mr_50{
+    margin-right: 50px;
+}
+.mb_15{
+    margin-bottom: 15px;
+}
+.fr {
+    float: right;
+}
+.fl {
+    float: left;
+}
+/*页面骨架*/
+.ad_aside {
+    width: 180px;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #222d32;
+    position: absolute;
+}
+.ad_aside .brand {
+    width: 100%;
+    height: 50px;
+    background-color: #367fa9;
+}
+.ad_aside .brand a {
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    display: block;
+}
+.ad_aside .user {
+    width: 100%;
+    padding: 30px 20px;
+}
+.ad_aside .user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.ad_aside .user span {
+    color: #fff;
+}
+.ad_aside .menu ul {
+    margin: 0;
+    padding: 0;
+}
+.ad_aside .menu ul li a {
+    display: block;
+    padding-left: 30px;
+    line-height: 40px;
+    height: 40px;
+    color: #aaa;
+    border: 3px solid #222d32;
+}
+.ad_aside .menu ul li.now > a {
+    border-left-color: #3c8dbc;
+    background: #1d1f21;
+    color: #fff;
+}
+.ad_aside .menu ul li .child a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #aaa;
+    padding-left: 50px;
+}
+
+
+
+.ad_section {
+    padding-left: 180px;
+}
+.ad_section.menu {
+    padding-left: 0;
+}
+.ad_section .ad_nav {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    background-color: #367fa9;
+}
+.ad_section .ad_nav a {
+    font-size: 16px;
+    color: #fff;
+    margin-top: 14px;
+}
+.ad_section .ad_nav a:nth-child(1) {
+    float: left;
+    margin-left: 15px;
+}
+.ad_section .ad_nav a:nth-child(2) {
+    float: right;
+    margin-right: 15px;
+}
+.ad_section .ad_content {
+    margin-top: 20px;
+}
+.ad_section .ad_content .picTable {
+    width: 45%;
+    height: 400px;
+    float: left;
+}
+.ad_section .ad_content .picTable:first-child {
+    margin-right: 10%;
+}
+.ad_section .ad_content table {
+    margin-bottom: 0;
+}
+.ad_section .ad_content th,
+.ad_section .ad_content td {
+    text-align: center;
+}
+.ad_section .ad_content td img {
+    width: 50px;
+    height: 50px;
+}

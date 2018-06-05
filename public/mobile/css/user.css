@@ -1,0 +1,65 @@
+.cz_content {
+    background-color: #efeff4;
+}
+.cz_content .cz_user {
+    width: 100%;
+    padding: 10px 10px 0;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.cz_user a {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.cz_user a:last-of-type {
+    border: none;
+}
+.cz_user a > p {
+    margin: 0;
+    float: left;
+    color: #333;
+    font-size: 17px;
+}
+.cz_user a > span {
+    color: #bbb;
+    display: block;
+    line-height: 100%;
+    float: right;
+    font-size: 20px;
+}
+.cz_user .user_message img {
+    height: 42px;
+    display: block;
+    float: left;
+    line-height: 42px;
+    max-width: 42px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.cz_user .user_message .user_name {
+    float: left;
+}
+.cz_user .user_message .user_name p {
+    margin: 0;
+}
+.cz_user .user_message span {
+    margin-top: 10px;
+}
+.cz_content .cz_login_out {
+    height: 33px;
+    width: 100%;
+    padding: 20px 10px;
+}
+.cz_content .cz_login_out .cz_out_login_btn {
+    display: block;
+    width: 100%;
+    height: 33px;
+    color: #333;
+    text-align: center;
+    line-height: 33px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}

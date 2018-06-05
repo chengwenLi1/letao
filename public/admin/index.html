@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>后台管理系统-首页</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/nprogress/nprogress.css"/>
+    <link rel="stylesheet" href="css/admin.css"/>
+</head>
+<body>
+<!--侧边栏-->
+<aside class="ad_aside">
+    <div class="brand">
+        <a href="index.html">ITCAST</a>
+    </div>
+    <div class="user">
+        <img src="images/default.png" alt=""/>
+        <span>超级管理员</span>
+    </div>
+    <div class="menu">
+        <ul>
+            <li class="now">
+                <a href="index.html">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span>用户管理</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <span class="glyphicon glyphicon-list"></span>
+                    <span>分类管理</span>
+                </a>
+
+                <div class="child" style="display: none">
+                    <a href="categoryFirst.html">一级分类</a>
+                    <a href="categorySecond.html">二级分类</a>
+                </div>
+            </li>
+            <li>
+                <a href="product.html">
+                    <span class="glyphicon glyphicon-tags"></span>
+                    <span>商品管理</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<!--内容-->
+<section class="ad_section">
+    <nav class="ad_nav">
+        <a href="javascript:;" data-menu>
+            <span class="glyphicon glyphicon-align-justify"></span>
+        </a>
+        <a href="javascript:;" data-logout>
+            <span class="glyphicon glyphicon-log-out" data-toggle="modal" data-target=".bs-login-out-modal-sm"></span>
+        </a>
+    </nav>
+    <div class="container-fluid">
+        <ol class="breadcrumb">
+            <li><a href="#">管理系统</a></li>
+            <li class="active">首页</li>
+        </ol>
+        <div class="ad_content">
+            <div class="picTable"></div>
+            <div class="picTable"></div>
+        </div>
+    </div>
+</section>
+<!--模态框-->
+
+
+<script src="assets/jquery/jquery.min.js"></script>
+<script src="assets/nprogress/nprogress.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/echarts/echarts.min.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.cz_content form {
+    width: 100%;
+    padding: 10px;
+}
+.cz_content form .register_btn {
+    width: 100%;
+    margin: 20px 0;
+}
+.cz_content form .agreement a {
+    font-size: 12px;
+    float: right;
+}
+.cz_content .register_verification_text {
+    width: 60%;
+}
+.cz_content .register_verification_btn {
+    width: 35%;
+    height: 40px;
+}
+.cz_content .agreement {
+    font-size: 12px;
+}
+.cz_content .agreement input {
+    vertical-align: middle;
+}
+.cz_content .verification_active {
+    border-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+}

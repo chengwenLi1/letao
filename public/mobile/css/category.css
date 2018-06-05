@@ -1,0 +1,49 @@
+.cz_content .cat_left {
+    width: 80px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+.cz_content .cat_left ul {
+    width: 100%;
+}
+.cz_content .cat_left ul li {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.cz_content .cat_left ul li.now {
+    border:none;
+    background: #c9c9c9;
+}
+.cz_content .cat_left ul li a {
+    display: block;
+    color: black;
+    font-size: 14px;
+}
+.cz_content .cat_right {
+    overflow: hidden;
+    height: 100%;
+}
+.cz_content .cat_right ul {
+    width: 100%;
+    padding: 0 10px;
+}
+.cz_content .cat_right ul li {
+    float: left;
+    padding-top: 10px;
+    width: 33.3333%;
+}
+.cz_content .cat_right ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.cz_content .cat_right ul li a img {
+    display: block;
+    max-width: 66px;
+    margin: 0 auto;
+}

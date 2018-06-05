@@ -1,0 +1,12 @@
+.cz_content form {
+    width: 100%;
+    padding: 10px;
+}
+.cz_content form .login_btn {
+    width: 100%;
+    margin: 20px 0;
+}
+.cz_content form .register_btn {
+    font-size: 12px;
+    float: right;
+}

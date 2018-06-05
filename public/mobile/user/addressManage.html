@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0"/>
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <title>收货地址管理</title>
+    <link type="image/x-icon" rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../lib/mui/css/mui.min.css"/>
+    <link rel="stylesheet" href="../lib/mui/css/mui.picker.css"/>
+    <link rel="stylesheet" href="../lib/mui/css/mui.poppicker.css"/>
+    <link rel="stylesheet" href="../lib/fontAwesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/common.css"/>
+    <link rel="stylesheet" href="../css/addressManage.css"/>
+</head>
+<body>
+<div class="cz_container">
+    <header class="cz_header">
+        <a href="javascript:history.back();" class="icon_back fa fa-arrow-left"></a>
+        <h3>收货地址管理</h3>
+    </header>
+
+    <div class="cz_content">
+        <form class="form_box">
+            <div class="mui-input-row">
+                <input name="recipients" type="text" placeholder="收货人">
+            </div>
+            <div class="mui-input-row">
+                <input name="postCode" type="text" placeholder="邮编">
+            </div>
+            <div class="mui-input-row">
+                <input name="address" type="text" readonly="" placeholder="省市区">
+            </div>
+            <div class="mui-input-row">
+                <textarea name="addressDetail" id="textarea" rows="5" placeholder="详细地址"></textarea>
+            </div>
+            <a href="javascript:;" class="mui-btn mui-btn-primary btn_submit">确认</a>
+        </form>
+    </div>
+
+    <footer class="cz_footer">
+        <a href="../index.html" class="fa fa-home"><span>首页</span></a>
+        <a href="../category.html" class="fa fa-bars"><span>分类</span></a>
+        <a href="cart.html" class="fa fa-shopping-cart"><span>购物车</span></a>
+        <a href="user.html" class="fa fa-user"><span>会员中心</span></a>
+    </footer>
+</div>
+
+<script src="../lib/mui/js/mui.min.js"></script>
+<script src="../lib/artTemplate/template-native.js"></script>
+<script src="../lib/zepto/zepto.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/user/addressManage.js"></script>
+<script src="../lib/mui/js/mui.picker.js"></script>
+<script src="../lib/mui/js/mui.poppicker.js"></script>
+<script src="../js/user/city.js"></script>
+</body>
+</html>
